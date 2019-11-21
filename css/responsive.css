@@ -1,0 +1,271 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.header-section {
+    padding: 0 0;
+}
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.pt-120{
+    padding-top: 90px;
+}
+
+.pb-120{
+    padding-bottom: 90px;
+}
+
+.header-section {
+    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.section-title h2 {
+	font-size: 55px;
+}
+
+
+.about-description p:nth-child(2){
+    display: none;
+}
+
+.btn {
+	padding: 20px 30px;
+}
+
+
+.services-section row{
+    padding-top: 90px;
+}
+
+.single-service {
+	padding: 35px 30px;
+}
+
+
+.single-experience {
+	padding: 30px;
+}
+
+
+.experience-heading i {
+	height: 60px;
+	line-height: 60px;
+	width: 60px;
+}
+
+
+.experience-title span {
+	margin-bottom: 10px;
+}
+
+.experience-title {
+	margin-left: 15px;
+}
+.experience-title h4 {
+	font-size: 20px;
+}
+
+
+
+.team-description h4 {
+	font-size: 20px;
+}
+
+.team-description {
+	padding: 30px 25px;
+}
+
+.news-heading h3 {
+	font-size: 22px;
+}
+
+.meta-news ul li a {
+	margin-right: 15px;
+}
+
+.footer-section{
+    padding-top: 90px;
+}
+
+
+.weiget-description span {
+	font-size: 16px;
+}
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-section {
+        padding-bottom: 5px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .single-slider {
+        min-height: 740px;
+        background-position: top left;
+    }
+
+    .section-title h2 {
+        font-size: 60px;
+    }
+
+    .about-title h2 span {
+        padding-right: 0;
+    }
+
+    .section-title h2 span{
+        display: block;
+    }
+
+    .experience-title {
+        margin-left: 10px;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    .footer-weiget-right h2 {
+        font-size: 27px;
+    }
+
+    .weiget-description span {
+        display: block;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .header-section {
+        padding-bottom: 5px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .single-slider {
+        min-height: 700px;
+        background-position: top left;
+    }
+
+    .slider-content h2 {
+        font-size: 40px;
+    }
+
+    .video-btn {
+        margin-left: 0;
+        display: block;
+    }
+    
+    .slider-btn {
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .about-title h2 span {
+        padding-right: 0;
+    }
+
+    .section-title h2 span{
+        display: block;
+    }
+
+    .experience-title {
+        margin-left: 20px;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    .footer-weiget-right h2 {
+        font-size: 27px;
+    }
+
+    .weiget-description span {
+        display: block;
+    }
+
+     .btn {
+        margin-bottom: 30px;
+        padding: 20px 40px;
+    }
+    
+    .about-btn {
+        text-align: center;
+    }
+    
+    .about-btn .btn-second {
+        margin-left: 0;
+    }
+
+    .service-heading h3 {
+        line-height: 1.4;
+    }
+    
+    .single-service {
+        padding: 35px 30px;
+    }
+    
+    .service-icon {
+        text-align: center;
+    }
+    
+    .service-heading {
+        text-align: center;
+    }
+        
+    .single-experience {
+        padding: 30px;
+    }
+
+    .team-description {
+        padding: 30px 25px;
+    }
+
+    .map {
+        padding-left: 0;
+    }
+
+    .owl-carousel .owl-nav div {
+        right: 40px;
+        top: -150px;
+    }
+
+    .testimonials-wrapper {
+        margin: 0 15px;
+    }
+
+    .owl-nav i {
+        font-size: 25px;
+    }
+
+    .news-heading h3 {
+        font-size: 18px;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
